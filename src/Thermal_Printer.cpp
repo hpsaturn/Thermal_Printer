@@ -84,6 +84,7 @@ const PRINTERID szPrinterIDs[] PROGMEM = {
 	{(char *)"T02", PRINTER_FOMEMO},
 	{(char *)"MX06", PRINTER_CAT},
 	{(char *)"MX10", PRINTER_CAT},
+  {(char *)"SC03h-D4C", PRINTER_CAT},
 	{NULL, 0}		// terminator
 };
 const int iPrinterWidth[] = {384, 576, 384, 576, 384, 384};
