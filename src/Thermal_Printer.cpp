@@ -64,7 +64,11 @@ struct PRINTERID
   const char *szBLEName;
   uint8_t ucBLEType;
 } ;
+
 // Names and types of supported printers
+//
+// NOTE: For new controllers, add a new entry to the end of this list
+// and chop off the device name to 9 characters or less.
 const PRINTERID szPrinterIDs[] PROGMEM = {
         {(char *)"MP210", PRINTER_MTP2},
 	{(char *)"MP583", PRINTER_MTP2},
